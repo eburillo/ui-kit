@@ -1,7 +1,12 @@
 {
-  "name": "ui-kit",
+  "name": "eburillo-ui-kit",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "React UI kit",
+  "main": "dist/index.js",
+  "repository": "https://github.com/eburillo/ui-kit",
+  "author": "Enrique Burillo <eburillo85@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +37,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/node-logger": "^6.0.21",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.0.21",
+    "auto": "^9.53.1",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "prettier": "^2.1.2",
+    "react-is": "^16.13.1"
   }
 }
