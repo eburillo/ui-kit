@@ -1,6 +1,6 @@
 {
   "name": "eburillo-ui-kit",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
   "description": "React UI kit",
   "main": "dist/index.js",
